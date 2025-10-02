@@ -1,17 +1,16 @@
 import './App.scss';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import Nav from './Components/Nav/Nav';
+import Home from './Components/Home/Home';
 
 function App() {
 
   return (
     <>
       <Header />
-      <div>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-      </div>
+      <Nav />
+      <Home />
       <Footer />
     </>
   )
